@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/************************************************
+	GLOBAL CSS end
+*************************************************/
+
+.header-section{
+	width: 100%;
+	padding: 15px 0px 0px 0px;
+	background: #f6f9f9;
+}
+
+.logo{
+	width: 100%;
+}
+
+.logo img{
+	border: none;
+}
+
+.main-menu{
+	width: 100%;
+}
+.main-menu ul{
+	display: block;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.main-menu ul li a{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px 15px;
+	color: #999;
+}
+
+.main-menu ul li a:hover{
+	color: #15a4fa;
+}
+
+
+
+/*************************************************
+	BANNER SECTION Start
+*************************************************/
+.banner-section{
+	width: 100%;
+	/*padding: 100px 0px;*/
+	padding-bottom: 100px;
+	background: url("../images/banner-image.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.banner-inner{
+	width: 100%;
+	text-align: center;
+	/*padding: 100px 0px;*/
+	position: relative;
+	/*background:#FF7F50;*/
+}
+
+.banner-inner h1{
+	font-size: 120px;
+	letter-spacing: 5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffff;
+	margin-top: 150px;
+}
+
+.banner-inner .divider{
+	width: 50%;
+	height: 2px;
+	margin: 0px auto;
+	top: 20px;
+	position: relative;
+	background: #15a4fa;
+}
+
+.banner-inner p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffff;
+	margin-top: 50px;
+}
+
+.banner-inner .btn-call-to-action{
+	padding:20px 40px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 80px;
+}
+.banner-inner .btn-call-to-action:hover{
+	background: #15a4fa;
+}
+
+.banner-inner .down-arrow{
+	text-align: center;
+	width: 100%;
+	
+}
+
+.banner-inner .down-arrow .down-arrow-icon{
+	border: none;
+	margin-top: 200px;
+	position: relative;
+}
+/*************************************************
+	BANNER SECTION End
+*************************************************/
+
+/*************************************************
+	Simple & Pure Design Section CSS start
+*************************************************/
+.simple-and-pure-design{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0;
+	background: #f6f9f9;
+}
+
+.simple-and-pure-design-inner h2{
+	font-size: 40px;
+	color: #2d3950;
+	font-weight: 400;
+}
+
+.simple-and-pure-design-inner p{
+	margin: 30px 25px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #999999;
+}
+
+/***********************************************
+	Features Section CSS start
+***********************************************/
+
+.features .col-md-4{
+	text-align: center;
+	/*width:33.33%;*/
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.features .col-md-4 h2{
+	font-size: 22px;
+	font-weight: 400;
+	padding: 10px;
+	color: #2d3950;
+}
+
+.features .col-md-4 p{
+	padding: 0px 40px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+}
+
+/***********************************************
+	Portfolio Section CSS start
+***********************************************/
+
+.portfolios{
+	width: 100%;
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+
+/*.port-padding{
+	padding: 5px;
+}*/
+
+.portfolio-title{
+	width: 100%;
+	text-align: center;
+}
+
+.portfolio-title h1{
+	font-size: 41px;
+	font-weight: 400;
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+
+.portfolio-title p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #909090;
+	margin-bottom: 80px;
+}
+
+
+.portfolio-inner{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.portfolio-inner .card-img, .card-img-bottom, .card-img-top {
+
+    border-top-left-radius: inherit !important;
+    border-top-right-radius: inherit !important;
+}
+
+
+.port-hover{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background: rgb(44,172,247, .9);
+	display:none;
+	transition: 1s;
+}
+
+.portfolio-inner .port-hover ul{
+	text-align: center;
+	margin-top: 35%;
+}
+
+.portfolio-inner .port-hover ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.portfolio-inner .port-hover ul li a{
+	padding: 15px;
+	border:1px solid #fff;
+	border-radius: 3px;
+	margin-right: 5px;
+	background: #2cacf7;
+	color: white;
+}
+
+.portfolio-inner:hover .port-hover{
+	display: block;	
+	transition: 1s;
+}
+
+
+
+/***********************************************
+	Stay with us CSS start
+************************************************/
+.stay-with-us{
+	width: 100%;
+	padding: 100px 0px;
+	background: url("../images/stay-with-us-bg.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+}
+
+
+.stay-with-us-details{
+	width: 100%;
+
+}
+
+.stay-with-us-details h2{
+	margin-bottom: 20px;
+	font-size: 41px;
+	font-weight: 400;
+	color: #f6f9f9;
+}
+
+.stay-with-us-details p{
+	font-size: 15px;
+  	font-weight: 400;
+	color: #9aa0aa;
+	margin-bottom: 50px;
+}
+
+.stay-with-us .contact-from{
+	width: 100%;
+}
+
+.contact-from .form-group .form-control{
+	width: 100%;
+  	padding: 20px;
+  	border: 1px solid #9aa0aa;
+  	outline: none;
+  	border-radius: 3px;
+  	margin-top: 5px;
+  	margin-bottom: 20px;
+  	background: transparent;
+  	font-size: 15px;
+  	font-weight: 400;
+  	color: #9aa0aa;
+}
+
+.contact-from input[type=checkbox]{
+	margin-right: 5px;
+}
+
+.contact-from .checkbox-left{
+	text-align: left;
+	margin-top: 10px;
+}
+
+.contact-from .button-right{
+	text-align: right;
+}
+
+.contact-from span{
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	/*padding-right: 260px;*/
+}
+
+.contact-from .btnsend{
+	padding:10px 50px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.contact-from .btnsend:hover{
+	background: #15a4fa;
+}
+
+
+/**********************************************
+	Footer Section CSS start
+**********************************************/
+.footer{
+	width: 100%;
+	background: #f6f9f9;
+}
+
+
+.footer-left h2{
+	font-size: 15px;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 50px;
+	
+}
+
+.footer-right{
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+/*	float: right;*/
+	text-align: right;
+}
+
+.footer-right li{
+	list-style: none;
+	display: inline;
+}
+
+.footer-right li a{
+	text-align: center;
+}
+
+.footer-right li a .fa{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	background: #15a4fa;
+	color: white;
+}
+
+.footer-right li a .fa{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 1px solid #15a4fa;
+	background: #15a4fa;
+	color: white;
+}
+
+.footer-right li a .fa-facebook:hover{
+	background: transparent;
+	border:1px solid #15a4fa;
+	color: #1674E6;
+}
+
+.footer-right li a .fa-twitter:hover{
+	background: transparent;
+	border:1px solid #15a4fa;
+	color: #1EA1F2;
+}
+
+.footer-right li a .fa-google-plus:hover{
+	background: transparent;
+	border:1px solid #15a4fa;
+	color: #D54836;
+}
+
+.footer-right li a .fa-linkedin:hover{
+	background: transparent;
+	border:1px solid #15a4fa;
+	color: #006FAB;
+}
+
