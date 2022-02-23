@@ -218,15 +218,19 @@ float: left;
     position: absolute;
     top: 0;
     left: 0;
-    height: 0;
-    width: 0;
+    right: 0;
+    bottom: 0;
+/*     height: 0;
+    width: 0; */
     background: #5ec3ffe6;
-    transition: 0.3s;
+    transform: scale(0);    
+    transition: 0.5s;
 }
 
 .showcase:hover .overlay{
-	height: 100%;
-    width: 100%;
+/* 	height: 100%;
+    width: 100%; */
+    transform: scale(1);
 }
 .showcase ul{
     position: absolute;
@@ -288,6 +292,7 @@ form input[type=text],[type=email], textarea{
     padding: 15px 10px;
     margin-bottom: 10px;
     color: #999999;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
 form label{
@@ -307,8 +312,10 @@ form input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     color: #fff;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     margin-right: -20px;
+    transition: 0.3s;
 }
 form input[type="submit"]:hover{
 	background-color: #15a4fa;
